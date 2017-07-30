@@ -145,31 +145,15 @@ dd {
   color: #C66200;
 }
 
-/*real avocado*/
-/*.avocado a {
-  color: #568203;
-}
-
-.avocado a:hover {
-  color: #8FBE36;
-}*/
-
-/*mint avocado*/
 .avocado a {
-  color: #BCE2D7;
+  color: #A2E8DD;
 }
 
 .avocado a:hover {
   color: #BCFFEC;
 }
 
-/*.mint a {
-  color: #BCE2D7;
-}
 
-.mint a:hover {
-  color: #BCFFEC;
-}*/
 
 /*
 ================================================================================
