@@ -432,12 +432,12 @@ footer p.lead{
   grid-template-rows: auto;
 }
 
-#r1p1 {
+img#r1p1 {
   grid-column: 1/4;
   grid-row: 1/2;
 }
 
-#r1p2 {
+img#r1p2 {
   grid-column: 5/8;
   grid-row: 1/2;
 }
