@@ -18,7 +18,9 @@
         {% include navigation.html %}
       </header>
 
-      {{ content }}
+      <div class="{% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+        {{ content }}
+      </div>
 
       <footer class="my-grid">
         <div id="bio-left">
