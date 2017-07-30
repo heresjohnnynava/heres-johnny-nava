@@ -7,9 +7,9 @@ highlighter: null
 permalink: /:title
 
 url: "http://mharr171.github.io"
-baseurl: "/johnny-nava/"
+baseurl: "/johnny-nava"
 
 # Custom options:
 # color_scheme: azul|ruby|amber|avocado
 
-color_scheme: avocado
+color_scheme: azul
