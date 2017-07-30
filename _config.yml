@@ -12,6 +12,6 @@ baseurl: ""
 #/johnny-nava ??
 
 # Custom options:
-# color_scheme: azul|ruby|amber|avocado
+# color_scheme: azul|ruby|amber|avocado|marigold
 
-color_scheme: amber
+color_scheme: marigold
