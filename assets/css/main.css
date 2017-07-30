@@ -146,14 +146,20 @@ dd {
 }
 
 .avocado a {
-  color: #A2E8DD;
+  color: #568203;
 }
 
 .avocado a:hover {
-  color: #BCFFEC;
+  color: #8FBE36;
 }
 
+.mint a {
+  color: #ABE8D7;
+}
 
+.mint a:hover {
+  color: #C3F0E9;
+}
 
 /*
 ================================================================================
