@@ -130,11 +130,13 @@ dd {
 }
 
 .ruby a {
-  color: #e0115f;
+  color: #ABE8D7;
+  /*color: #e0115f;*/
 }
 
 .ruby a:hover {
-  color: #930036;
+  color: #C3F0E9;
+  /*color: #930036;*/
 }
 
 .amber a {
