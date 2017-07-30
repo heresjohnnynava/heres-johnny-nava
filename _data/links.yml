@@ -1,0 +1,10 @@
+- url: /
+  title: Home
+- url: /about
+  title: About
+- url: /fiction
+  title: Fiction
+- url: /nonfiction
+  title: "NonFiction"
+- url: /Photos
+  title: Photos
