@@ -10,6 +10,6 @@ url: "http://mharr171.github.io"
 baseurl: "/johnny-nava"
 
 # Custom options:
-# color_scheme: azul|ruby|amber|avocado
+# color_scheme: azul|ruby|amber|avocado|mint
 
-color_scheme: azul
+color_scheme: mint
