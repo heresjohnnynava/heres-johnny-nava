@@ -420,3 +420,24 @@ footer p.lead{
       flex-basis: 80px;
   }
 }
+
+/*
+================================================================================
+  Photos
+================================================================================
+*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 100px 100px 60px 100px 100px 150px;
+  grid-template-rows: auto;
+}
+
+#r1p1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+#r1p2 {
+  grid-column: 5/8;
+  grid-row: 1/2;
+}
