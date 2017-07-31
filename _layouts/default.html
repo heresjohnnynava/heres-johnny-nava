@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
-      {% if page.title == "Home" %}
-      <header class="fadeInLeft animated">
-      {% else %}
-      <header>
-      {% endif %}
-        <div>
-          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
-             style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
-        </div>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+            {% if page.title == "Home" %}
+                <header class="fadeInLeft animated">
+                {% else %}
+                    <header>
+                    {% endif %}
+                    <div>
+                        <a href="{{ site.url }}" id="logo" title="{{ site.title }}" style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
+                    </div>
 
-        {% include navigation.html %}
-      </header>
+                    {% include navigation.html %}
+                </header>
 
-      {{ content }}
+                {{ content }}
 
-      <footer class="my-grid">
-        <div id="bio-left">
-          <img src="https://i.imgur.com/Xd95PSh.png" />
-        </div>
-        <div id="bio-right">
-          <p class='lead'>Johnny Nava</p>
-          <!-- <p>CSU Northridge '17</p> -->
-          <p class="space small">Writer</p>
-          <p class="space small">Director</p>
-          <p class="space small">Creator</p>
-          <p class="space large">Writer  |  Director  |  Creator</p>
-        </div>
-      </footer>
-    </main>
+                <footer class="my-grid">
+                    <div id="bio-left">
+                        <img src="https://i.imgur.com/YUu63q2.png"/>
+                    </div>
+                    <div id="bio-right">
+                        <p class='lead'>Johnny Nava</p>
+                        <!-- <p>CSU Northridge '17</p> -->
+                        <p class="space small">Writer</p>
+                        <p class="space small">Director</p>
+                        <p class="space small">Creator</p>
+                        <p class="space large">Writer | Director | Creator</p>
+                    </div>
+                </footer>
+            </main>
 
-    <!-- scripts -->
-    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
-    <script>
-      fluidvids.init({
-        selector: ['iframe', 'object'],
-        players: ['www.youtube.com', 'player.vimeo.com']
-      });
-    </script>
-  </body>
-</html>
+            <!-- scripts -->
+            <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
+            <script>
+                fluidvids.init({
+                    selector: [
+                        'iframe', 'object'
+                    ],
+                    players: ['www.youtube.com', 'player.vimeo.com']
+                });
+            </script>
+        </body>
+    </html>
