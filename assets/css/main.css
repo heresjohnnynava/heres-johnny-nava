@@ -231,6 +231,7 @@ header > nav#main-navigation a:hover {
 header > nav#main-navigation a:hover {
     background-color: #333;
     transform: translateY(5px);
+    color: #EAA221;
 }
 
 header > nav#main-navigation a.current {
