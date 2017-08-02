@@ -16,10 +16,11 @@
 
                     {% include navigation.html %}
                 </header>
-
-                {{ content }}
-
-                <footer class="my-grid">
+            {% if page.title == "Home" %}
+                <section class="my-grid bio fadeInLeft animated">
+                {% else %}
+                    <section class="my-grid bio">
+                    {% endif %}
                     <div id="bio-left">
                         <img src="https://i.imgur.com/YUu63q2.png"/>
                     </div>
@@ -29,9 +30,13 @@
                         <p class="space small">Writer</p>
                         <p class="space small">Director</p>
                         <p class="space small">Creator</p>
-                        <p class="space large">Writer | Director | Creator</p>
+                        <p class="space large">Writer | Filmmaker | Creator</p>
                     </div>
-                </footer>
+                </section>
+
+                {{ content }}
+
+
             </main>
 
             <!-- scripts -->

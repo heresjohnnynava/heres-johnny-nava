@@ -5,6 +5,8 @@
 - url: /fiction
   title: Fiction
 - url: /nonfiction
-  title: "NonFiction"
-- url: /photos
-  title: Photos
+  title: "Non-Fiction"
+#- url: /photos
+#  title: Photos
+- url: /contact
+  title: Contact
