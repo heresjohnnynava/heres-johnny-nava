@@ -327,11 +327,12 @@ nav#main-navigation a.trigger {
 }
 @media screen and (max-width: 580px) {
     .bio {
-        border: 3px solid black;
+        //border: 3px solid black;
         grid-template-columns: 1fr;
         grid-template-rows: 70px 150px 50px;
-        top: -4rem;
+        top: -2rem;
         position: relative;
+        margin: -30px 0 -50px;
     }
 
     .bio p.lead {
@@ -341,7 +342,7 @@ nav#main-navigation a.trigger {
         display: block;
     }*/
     .bio .large {
-        font-size: 20px;
+        font-size: 15px;
         /*display: none;*/
     }
 
@@ -482,8 +483,16 @@ nav#main-navigation a.trigger {
         align-items: center;
     }
 
+    #logodiv {
+        display: none;
+    }
+
     #logo {
         background-position: center;
+        display: none;
+        /*display: none;
+        width: 0;
+        height: 0;*/
     }
 
     header > nav#main-navigation {
