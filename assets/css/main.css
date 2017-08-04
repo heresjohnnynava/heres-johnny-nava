@@ -324,6 +324,7 @@ nav#main-navigation a.trigger {
 }*/
 .bio .large {
     display: block;
+    text-align: center;
 }
 @media screen and (max-width: 580px) {
     .bio {
@@ -343,6 +344,7 @@ nav#main-navigation a.trigger {
     }*/
     .bio .large {
         font-size: 15px;
+        letter-spacing: 0.25em;
         /*display: none;*/
     }
 
@@ -472,6 +474,11 @@ nav#main-navigation a.trigger {
   Responsive styling
 ================================================================================
 */
+@media screen and (max-width: 728px) {
+    header > nav#main-navigation a {
+        font-size: 70%;
+    }
+}
 @media screen and (max-width: 580px) {
     header {
         -webkit-box-orient: vertical;
@@ -644,7 +651,7 @@ img#r4p2 {
 }
 @media screen and (max-width: 695px) {
     .contact a p {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .contact a p span {
