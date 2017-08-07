@@ -1,0 +1,80 @@
+.grid-container
+  display: grid
+  width: 100%
+  display: grid
+
+  // background: pink
+  grid-template-columns: repeat(12, 1fr)
+  grid-template-rows: repeat(4, 300px)
+  position: relative
+
+  h3.title
+    font-size: 300%
+    display: block
+    line-height: 3rem
+    margin: auto auto
+
+    // background: rgba(200, 255, 200, 0.3)
+    position: relative
+    top: -2rem
+
+  p.quote
+    font-size: 150%
+    font-family: "Raleway"
+    font-weight: 200
+    line-height: 2rem
+    margin: auto auto
+    letter-spacing: 0.1rem
+    display: block
+
+    // background: rgba(200, 200, 255, 0.3)
+    position: relative
+    top: 1rem
+
+  #fiction-1-title
+    grid-column: 1 / 5
+    grid-row: 1
+    text-align: right
+    margin-right: 0
+
+  #fiction-1-quote
+    grid-column: 6 / 13
+    grid-row: 1
+    text-align: left
+    margin-left: 0
+
+  #fiction-2-title
+    grid-column: 9 / 13
+    grid-row: 2
+    text-align: left
+    margin-left: 0
+
+  #fiction-2-quote
+    grid-column: 1 / 8
+    grid-row: 2
+    text-align: right
+    margin-right: 0
+
+  #fiction-3-title
+    grid-column: 1 / 5
+    grid-row: 3
+    text-align: right
+    margin-right: 0
+
+  #fiction-3-quote
+    grid-column: 6 / 13
+    grid-row: 3
+    text-align: left
+    margin-left: 0
+
+  #fiction-4-title
+    grid-column: 9 / 13
+    grid-row: 4
+    text-align: left
+    margin-left: 0
+
+  #fiction-4-quote
+    grid-column: 1 / 8
+    grid-row: 4
+    text-align: right
+    margin-right: 0
