@@ -6,7 +6,7 @@ description: "Personal blog/portfolio site."
 highlighter: null
 permalink: /:title
 
-url: ""
+url: "http://heresjohnnynava.com"
 #url: "http://mharr171.github.io"
 #http://mharr171.github.io
 baseurl: ""
