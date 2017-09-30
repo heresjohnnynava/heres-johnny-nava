@@ -2,6 +2,15 @@
 layout: no-header
 title: Contact
 ---
+<form action="https://getsimpleform.com/messages?form_api_token=927e8dcbf6c09855930b05e05195e7b3" method="post">
+<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+<input type='hidden' name='redirect_to' value='http://heresjohnnynava.com/thank-you.html' />
+  <input type='text' name='name' placeholder='Your Full Name' />
+  <input type='email' name='email' placeholder='Your E-mail Address' />
+  <textarea name='message' placeholder='Write your message...'></textarea>
+  <input type='submit' value='Send Message' />
+</form>
+
 <section class="contact {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
   <a href="mailto:johnny@heresjohnnynava.com?subject=Yo%20Johnny&body=Whats%20up">
     <p>Johnny<span id="at">@</span>heresjohnnynava<span id="dot">.</span><span id="com">com</span></p>
