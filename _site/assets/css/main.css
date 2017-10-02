@@ -316,6 +316,7 @@ nav#main-navigation a.trigger {
 
 .bio p.space {
     letter-spacing: 0.35em;
+    margin-bottom: 10px;
 }
 
 .bio p.lead {
@@ -324,9 +325,9 @@ nav#main-navigation a.trigger {
     font-family: 'Raleway';
     font-weight: 400;
 }
-/*.bio .small {
+.bio .small {
     display: none;
-}*/
+}
 .bio .large {
     display: block;
     text-align: center;
@@ -338,19 +339,23 @@ nav#main-navigation a.trigger {
         grid-template-rows: 60px 150px 30px 30px;
         top: -2rem;
         position: relative;
-        margin: -30px 0 -50px;
+        margin: -30px 0 -20px;
     }
 
     .bio p.lead {
         font-size: 25px;
     }
-    /*.bio .small {
+    .bio p.space {
+        letter-spacing: 0.35em;
+        margin-bottom: -5px;
+    }
+    .bio .small {
         display: block;
-    }*/
+    }
     .bio .large {
         font-size: 15px;
         letter-spacing: 0.25em;
-        /*display: none;*/
+        display: none;
     }
 
     .bio #bio-right {
@@ -381,6 +386,15 @@ nav#main-navigation a.trigger {
         grid-column: 1 / 2;
         grid-row: 4;
         text-align: center;
+
+    }
+
+    .bio #bio-social ul{
+        margin: 35px 0 25px
+    }
+
+    .archive {
+      margin-top: 30px;
     }
 }
 /*
