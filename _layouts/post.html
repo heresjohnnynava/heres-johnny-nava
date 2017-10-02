@@ -4,7 +4,15 @@ layout: default
 
 <article class="single row gutters">
   <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
-  <h2>{{ page.title }}</h2>
+  {% if page.largetitle %}
+    <h2 style="font-size:250%;margin: 5px 0 -2px">{{ page.title }}</h2>
+  {% else %}
+    <h2>{{ page.title }}</h2>
+  {% endif %}
+
+  {% if page.readtime %}
+    <h6 class="readtime">readtime ~{{ page.minutes }}min</h6>
+  {% endif %}
 
   {{ content }}
 
