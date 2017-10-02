@@ -6,13 +6,13 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 01 Oct 2017 19:22:00 -0700</pubDate>
-    <lastBuildDate>Sun, 01 Oct 2017 19:22:00 -0700</lastBuildDate>
+    <pubDate>Sun, 01 Oct 2017 20:21:26 -0700</pubDate>
+    <lastBuildDate>Sun, 01 Oct 2017 20:21:26 -0700</lastBuildDate>
 
     
       <item>
         <title>My Video Example</title>
-        <link>http://localhost:4000/video-example</link>
+        <link>http://localhost:4000/170728-video-example</link>
         <pubDate>Fri, 28 Jul 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/214092083?badge=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -22,7 +22,7 @@
     
       <item>
         <title>My Video Example</title>
-        <link>http://localhost:4000/video-example</link>
+        <link>http://localhost:4000/170528-video-example</link>
         <pubDate>Sun, 28 May 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/214092083?badge=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -32,7 +32,7 @@
     
       <item>
         <title>Demo post</title>
-        <link>http://localhost:4000/demo-post</link>
+        <link>http://localhost:4000/170507-demo-post</link>
         <pubDate>Sun, 07 May 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;
@@ -124,7 +124,7 @@
     
       <item>
         <title>Video Example</title>
-        <link>http://localhost:4000/video-example</link>
+        <link>http://localhost:4000/170425-video-example</link>
         <pubDate>Tue, 25 Apr 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/214092083?badge=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -134,7 +134,7 @@
     
       <item>
         <title>Video Example</title>
-        <link>http://localhost:4000/video-example</link>
+        <link>http://localhost:4000/170423-video-example</link>
         <pubDate>Sun, 23 Apr 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/214092083?badge=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -144,7 +144,7 @@
     
       <item>
         <title>Demo post</title>
-        <link>http://localhost:4000/demo-post</link>
+        <link>http://localhost:4000/170407-demo-post</link>
         <pubDate>Fri, 07 Apr 2017 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;
@@ -236,7 +236,7 @@
     
       <item>
         <title>Video Example</title>
-        <link>http://localhost:4000/video-example</link>
+        <link>http://localhost:4000/161125-video-example</link>
         <pubDate>Fri, 25 Nov 2016 00:00:00 -0800</pubDate>
         <author></author>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/214092083?badge=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -246,7 +246,7 @@
     
       <item>
         <title>Demo post</title>
-        <link>http://localhost:4000/demo-post</link>
+        <link>http://localhost:4000/140507-demo-post</link>
         <pubDate>Wed, 07 May 2014 00:00:00 -0700</pubDate>
         <author></author>
         <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;
@@ -338,7 +338,7 @@
     
       <item>
         <title>Demo post</title>
-        <link>http://localhost:4000/demo-post</link>
+        <link>http://localhost:4000/140307-demo-post</link>
         <pubDate>Fri, 07 Mar 2014 00:00:00 -0800</pubDate>
         <author></author>
         <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;

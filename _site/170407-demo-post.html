@@ -95,7 +95,7 @@
                 </section>
 
                 <article class="single row gutters">
-  <time class="published" datetime="2017-05-07">07 May 2017</time>
+  <time class="published" datetime="2017-04-07">07 April 2017</time>
   <h2>Demo post</h2>
 
   <p>Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.</p>
@@ -184,7 +184,28 @@
 <p>Sed imperdiet interdum ultrices. Phasellus iaculis porttitor lorem nec scelerisque. Suspendisse eros urna, adipiscing vel luctus at, feugiat sit amet arcu. Aliquam porttitor ut urna pellentesque sagittis. Donec pellentesque venenatis diam sit amet cursus. Etiam luctus, metus quis gravida fermentum, tortor arcu consequat metus, eget viverra augue risus ac dui. Fusce faucibus scelerisque quam eu sagittis. Sed sit amet sapien non augue lobortis adipiscing. Sed sagittis at lectus eu tempus. Nulla non nulla ut ante condimentum mattis vel at lectus. Nulla ultricies dui et urna semper ultrices. Sed neque ante, dictum in dignissim luctus, facilisis ornare odio. Aenean tempor ultrices magna non pharetra. Curabitur vulputate nec est aliquet suscipit. Etiam ipsum sapien, dictum quis tristique vel, pretium at elit.</p>
 
 
-  <h3>Comments</h3>
+  
+    <h3>Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+
+
+    var disqus_config = function () {
+    //this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = 'http://localhost:4000/170407-demo-post'
+    //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.identifier = '/170407-demo-post';
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://heresjohnnynava.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
 </article>
 
 
@@ -201,5 +222,6 @@
                     players: ['www.youtube.com', 'player.vimeo.com']
                 });
             </script>
+            <script id="dsq-count-scr" src="//heresjohnnynava.disqus.com/count.js" async></script>
         </body>
     </html>
