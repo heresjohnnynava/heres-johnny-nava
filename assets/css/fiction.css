@@ -3,7 +3,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 300px);
+  grid-template-rows: repeat(2, 300px);
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   line-height: 3rem;
   margin: auto auto;
   position: relative;
-  top: -2rem;
+  top: 1rem;
 }
 
 .grid-container p.quote {
@@ -40,6 +40,12 @@
   grid-row: 1;
   text-align: left;
   margin-left: 0;
+}
+
+.grid-container #fiction-2-line {
+  grid-column: 5 / 9;
+  grid-row: 2;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .grid-container #fiction-2-title {
