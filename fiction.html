@@ -5,6 +5,17 @@ title: Fiction
 <link rel="stylesheet" href="/assets/css/fiction.css">
 
 <body>
+
+  {% for post in site.categories.Fiction %}
+  <article class="archive-item">
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    <p>
+      {{post.short}}
+    </p>
+  </article>
+  {% endfor %}
+
+
   <div class="grid-container">
     <a href="/171001-fiesta" id="fiction-1-title" class="title"><h3>Fiesta</h3></a>
     <p id="fiction-1-quote" class="quote">
@@ -13,7 +24,7 @@ title: Fiction
 
     <div id='fiction-2-line'> </div>
 
-    <a href="/171001-ghosts" id="fiction-2-title" class="title"><h3>Ghosts</h3></a>
+    <a href="/171003-ghosts" id="fiction-2-title" class="title"><h3>Ghosts</h3></a>
     <p id="fiction-2-quote" class="quote">
       Right now I’m sitting in my father’s office thinking of a memory I can barely remember.
     </p>

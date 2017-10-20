@@ -4,14 +4,14 @@
         <!-- meta information -->
 <meta charset="utf-8">
 <meta name="description" 
-      content="nothing yet, yo!" >
+      content="{% for category in site.categories %}      {% capture category_name %}{{ category | first }}{% endcapture %}         ..." >
 <meta name="author" content="Johnny Nava">
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>About &middot; Johnny Nava</title>
+<title>Categories &middot; Johnny Nava</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
@@ -57,7 +57,7 @@
   
   
   
-  <a href="/about" title="About" class="current">About</a>
+  <a href="/about" title="About">About</a>
   
   
   
@@ -102,11 +102,51 @@
                 </section>
 
                 <article class="single row gutters">
-  <h2>About</h2>
+  <h2>Categories</h2>
 
-  <link rel="stylesheet" href="/assets/css/about.css">
+  <div id="archives">
 
-<p id="pickleChips">nothing yet, yo!</p>
+  <div class="archive-group">
+    
+    <div id="#Blog"></div>
+    <p></p>
+
+    <h3 class="category-head">Blog</h3>
+    <a name="Blog"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/171002-culpa-ullamco">Culpa Ullamco</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/170930-enim-tempor">Enim Tempor</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/170929-do-laborum">Do Laborum</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <div id="#Fiction"></div>
+    <p></p>
+
+    <h3 class="category-head">Fiction</h3>
+    <a name="Fiction"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/171003-ghosts">Ghosts</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/171001-fiesta">Fiesta</a></h4>
+    </article>
+    
+  </div>
+
+</div>
 
 </article>
 
