@@ -1,13 +1,52 @@
 .grid-container {
-  display: grid;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 300px);
   position: relative;
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto;
 }
 
-.grid-container a.title {
+.grid-container .story {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 1;
+  height: auto;
+  margin: 20px 0;
+}
+
+.grid-container .story .title.odd {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.grid-container .story .title.even {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.grid-container .story .desc.odd {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  padding-left: 10px;
+}
+
+.grid-container .story .desc.even {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding-right: 10px;
+}
+
+.grid-container .story .divLine {
+  grid-column: 1/4;
+  grid-row: 1;
+  border-bottom: 1px solid rgba(80, 80, 80, 0.3);
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  top: 35px;
+}
+
+.grid-container .story a {
   font-size: 300%;
   display: block;
   line-height: 3rem;
@@ -16,7 +55,7 @@
   top: 1rem;
 }
 
-.grid-container p.quote {
+.grid-container .story p {
   font-size: 150%;
   font-family: "Raleway";
   font-weight: 200;
@@ -28,64 +67,11 @@
   top: 1rem;
 }
 
-.grid-container #fiction-1-title {
-  grid-column: 1 / 5;
-  grid-row: 1;
-  text-align: right;
-  margin-right: 0;
-}
-
-.grid-container #fiction-1-quote {
-  grid-column: 6 / 13;
-  grid-row: 1;
-  text-align: left;
-  margin-left: 0;
-}
-
-.grid-container #fiction-2-line {
-  grid-column: 5 / 9;
-  grid-row: 2;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.grid-container #fiction-2-title {
-  grid-column: 9 / 13;
-  grid-row: 2;
-  text-align: left;
-  margin-left: 0;
-}
-
-.grid-container #fiction-2-quote {
-  grid-column: 1 / 8;
-  grid-row: 2;
-  text-align: right;
-  margin-right: 0;
-}
-
-.grid-container #fiction-3-title {
-  grid-column: 1 / 5;
-  grid-row: 3;
-  text-align: right;
-  margin-right: 0;
-}
-
-.grid-container #fiction-3-quote {
-  grid-column: 6 / 13;
-  grid-row: 3;
-  text-align: left;
-  margin-left: 0;
-}
-
-.grid-container #fiction-4-title {
-  grid-column: 9 / 13;
-  grid-row: 4;
-  text-align: left;
-  margin-left: 0;
-}
-
-.grid-container #fiction-4-quote {
-  grid-column: 1 / 8;
-  grid-row: 4;
-  text-align: right;
-  margin-right: 0;
+@media screen and (max-width: 600px) {
+  .grid-container .story a {
+    font-size: 200%;
+  }
+  .grid-container .story p {
+    font-size: 100%;
+  }
 }
