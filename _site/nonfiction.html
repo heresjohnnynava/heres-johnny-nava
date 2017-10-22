@@ -4,14 +4,14 @@
         <!-- meta information -->
 <meta charset="utf-8">
 <meta name="description" 
-      content="nothing yet, yo!" >
+      content="      {% for post in site.categories.Nonfiction %}                  {{post.title}}                              {{pos..." >
 <meta name="author" content="Johnny Nava">
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>NonFiction &middot; Johnny Nava</title>
+<title>Nonfiction &middot; Johnny Nava</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="/assets/css/animate.min.css">
 <link rel="stylesheet" href="/assets/css/syntax.css">
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/footer.css">
+<link rel="stylesheet" href="/assets/css/footer.min.css">
 
 <!-- Google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
@@ -65,7 +65,7 @@
   
   
   
-  <a href="/nonfiction" title="Nonfiction">Nonfiction</a>
+  <a href="/nonfiction" title="Nonfiction" class="current">Nonfiction</a>
   
   
   
@@ -102,9 +102,15 @@
                 </section>
 
                 <article class="single row gutters">
-  <h2>NonFiction</h2>
+  <h2>Nonfiction</h2>
 
-  <p>nothing yet, yo!</p>
+  <link rel="stylesheet" href="/assets/css/categories.min.css">
+
+<body>
+  <div class="grid-container">
+    
+  </div>
+</body>
 
 </article>
 

@@ -1,6 +1,25 @@
 ---
 layout: page
-title: NonFiction
+title: Nonfiction
 ---
+<link rel="stylesheet" href="/assets/css/categories.min.css">
 
-<p>nothing yet, yo!</p>
+<body>
+  <div class="grid-container">
+    {% for post in site.categories.Nonfiction %}
+    <div class="story">
+      <div class="title {% cycle 'title': 'odd', 'even' %}">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      </div>
+      <div class="desc {% cycle 'desc': 'odd', 'even' %}">
+        <p>
+          {{post.short}}
+        </p>
+      </div>
+      {% if forloop.last == false %}
+      <div class='divLine'></div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</body>

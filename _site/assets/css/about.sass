@@ -1,1 +1,30 @@
+.grid-container
+  width: 100%
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: auto
+  img
+    grid-column: 1 / 2
+    margin: auto 0
+  .text
+    grid-column: 2 / 4
+    padding: 10px
+    .left
+      display: inline
+    .above
+      display: none
 
+@media screen and (max-width: 582px)
+  .grid-container
+    img
+      grid-column: 1 / 4
+      grid-row: 1 / 2
+      margin: 0 auto
+    .text
+      grid-column: 1 / 4
+      grid-row: 2 / 3
+      padding: 10px
+      .left
+        display: none
+      .above
+        display: inline
