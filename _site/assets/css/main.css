@@ -555,6 +555,91 @@ nav#main-navigation a.trigger {
 .readtime{
     color: rgba(0,0,0,.3);
 }
+
+/*
+================================================================================
+  Post Photo Layouts
+================================================================================
+*/
+.photo-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 8.33%);
+  grid-template-rows: auto;
+  grid-row-gap: 0;
+}
+
+.third-left {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.third-center {
+  grid-column: 5/9;
+  grid-row: 1/2;
+}
+
+.third-right {
+  grid-column: 9/13;
+  grid-row: 1/2;
+}
+
+.fourth-left {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.fourth-left {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.fourth-center-left {
+  grid-column: 4/7;
+  grid-row: 1/2;
+}
+
+.fourth-center-right {
+  grid-column: 7/10;
+  grid-row: 1/2;
+}
+
+.fourth-right {
+  grid-column: 10/13;
+  grid-row: 1/2;
+}
+
+.two-thirds-left {
+  grid-column: 1/9;
+  grid-row: 1/2;
+}
+
+.two-thirds-right {
+  grid-column: 5/13;
+  grid-row: 1/2;
+}
+
+.half-left {
+  grid-column: 1/7;
+  grid-row: 1/2;
+}
+
+.half-right {
+  grid-column: 7/13;
+  grid-row: 1/2;
+}
+
+.three-fourths-left {
+  grid-column: 1/10;
+  grid-row: 1/2;
+}
+
+.three-fourths-right {
+  grid-column: 4/13;
+  grid-row: 1/2;
+}
+
+
 /*
 ================================================================================
   Photos
